@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose
+customization and migration functionality. If you need to change
+information in the customization file, use the Customize User Interface
+dialog in the product.
+To access the Customize User Interface dialog, click the Tools menu,
+Customization panel, User Interface button, or enter CUI on the command line.
+-->
+<WorkspaceRoot>
+	<Workspace StartOn="ignore" ScrollBars="ignore" ScreenMenus="off" StatusBar="ApplicationOnly" NavigationBar="on" MenuBar="off" LayoutModelTabs="on" DefaultWorkspace="true" UID="WS_Anno2DDraft">
+		<ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0"/>
+		<Name xlate="true" UID="XLS_6639">2D kreslení a poznámky</Name>
+		<WSPopRoot>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnFile" Display="1" UID="WSP_0199">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnEdit" Display="1" UID="WSP_0200">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnView" Display="1" UID="WSP_0201">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnInsert" Display="1" UID="WSP_0202">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnFormat" Display="1" UID="WSP_0203">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnTools" Display="1" UID="WSP_0204">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnDraw" Display="1" UID="WSP_0205">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnDimensi" Display="1" UID="WSP_0206">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnModify" Display="1" UID="WSP_0207">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnParametric" Display="1" UID="WSP_0213">
+				<ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnWindow" Display="1" UID="WSP_0208">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="ACAD" pUID="ID_MnHelp" Display="1" UID="WSP_0209">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSPop>
+			<WSPop MenuGroup="EXPRESS" pUID="ID_MNEXPRESS" Display="1" UID="WSP_0210">
+				<ModifiedRev MajorVersion="17" MinorVersion="2" UserVersion="0"/>
+			</WSPop>
+		</WSPopRoot>
+		<WSToolbarRoot>
+			<WSToolbar MenuGroup="ACAD" pUID="ID_TbWorkspaces" Display="0" ToolbarOrient="top" xval="0" yval="0" rows="1" dockrow="0" dockcolumn="0" UID="WST_0077">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSToolbar>
+			<WSToolbar MenuGroup="ACAD" pUID="TB_0008" Display="0" ToolbarOrient="top" xval="0" yval="0" rows="1" dockrow="0" dockcolumn="1" UID="WST_0078">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSToolbar>
+			<WSToolbar MenuGroup="ACAD" pUID="TB_0009" Display="0" ToolbarOrient="floating" xval="200" yval="200" rows="1" dockrow="1" dockcolumn="1" UID="WST_0081">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSToolbar>
+			<WSToolbar MenuGroup="ACAD" pUID="TB_0010" Display="0" ToolbarOrient="floating" xval="200" yval="200" rows="1" dockrow="1" dockcolumn="1" UID="WST_0082">
+				<ModifiedRev MajorVersion="17" MinorVersion="2" UserVersion="0"/>
+			</WSToolbar>
+		</WSToolbarRoot>
+		<WSQuickAccessToolbarRoot>
+			<WSQuickAccessToolbarReference MenuGroup="" ToolbarId="QAT_TOOLBAR1" Orientation="" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+			</WSQuickAccessToolbarReference>
+		</WSQuickAccessToolbarRoot>
+		<WSESWRoot>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{0939E07C-FCEF-4C0D-8349-662031189B8A}" CommandName="LIGHTLIST" CommandPosition="0" UID="WSE_0125">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{1A11B0B9-1AA0-4E71-95D1-C77737444340}" CommandName="EXTERNALREFERENCES" CommandPosition="0" UID="WSE_0127">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{26C7CFE0-7187-4736-9B70-EF21C803A601}" CommandName="SUNPROPERTIES" CommandPosition="0" UID="WSE_0128">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{60284BE8-5CB0-474B-BD85-9D3335F5E471}" CommandName="VISUALSTYLES" CommandPosition="0" UID="WSE_0130">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="no" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{6D32A2D9-832E-11D2-A83C-0060B0872C0B}" CommandName="PROPERTIES" CommandPosition="0" UID="WSE_0131">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{888F0E83-D9B4-48A5-AEA9-3867A6121478}" CommandName="RPREF" CommandPosition="0" UID="WSE_0132">
+				<ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{9403002C-2B99-4281-B9DD-F708E0858542}" CommandName="MARKUP" CommandPosition="0" UID="WSE_0133">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{ACA19CF8-C061-4301-8E75-49DACFF072AD}" CommandName="QuickCalc" CommandPosition="0" UID="WSE_0134">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{B17B40A6-2761-4BCC-BC48-2B8A465AA5EB}" CommandName="TOOLPALETTES" CommandPosition="0" UID="WSE_0135">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="no" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{B371F8AA-7FF7-11D2-BA58-0060B0B5E151}" CommandName="ADCENTER" CommandPosition="0" UID="WSE_0136">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="no" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{B6BCB9F4-84B2-11D2-A127-0060B0CE2DA0}" CommandName="DBCONNECT" CommandPosition="0" UID="WSE_0137">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="no" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{BEBBB318-2898-4C03-ADA2-360DC6B7AA69}" CommandName="SHEETSET" CommandPosition="0" UID="WSE_0138">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="yes" DockFloat="docked" Orientation="bottom" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{D5CF410D-3E11-4D0C-AE69-A75C9B788C47}" CommandName="COMMANDLINE" CommandPosition="0" UID="WSE_0139">
+				<ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="yes" DockFloat="docked" Orientation="top" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{B1AC3ED0-9573-4569-A97A-D9CAE382F5D2}" CommandName="_RIBBON" CommandPosition="0" UID="WSE_0143">
+				<ModifiedRev MajorVersion="17" MinorVersion="2" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="ignore" AllowDock="ignore" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="0" dockheight="0" DefaultGroup="" ClassName="{F1517EC6-62B7-4600-A00C-127FA2170291}" CommandName="LAYER" CommandPosition="0" UID="WSE_0150">
+				<ModifiedRev MajorVersion="18" MinorVersion="0" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="docked" Orientation="right" AllowDock="yes" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="300" dockheight="0" DefaultGroup="" ClassName="{9278AB26-9620-4FC2-87F1-E4C1187D2EEA}" CommandName="MATBROWSEROPEN" CommandPosition="0" UID="WSE_0152">
+				<ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+			<WSESW Display="no" DockFloat="ignore" Orientation="left" AllowDock="yes" AutoHide="ignore" UseTransparency="ignore" xval="-2147483648" yval="-2147483648" Height="0" Width="0" dockxval="-2147483648" dockyval="-2147483648" dockwidth="325" dockheight="0" DefaultGroup="" ClassName="{2E558694-CA42-44DA-8B6B-9D455D210B2E}" CommandName="MATEDITOROPEN" CommandPosition="0" UID="WSE_0156">
+				<ModifiedRev MajorVersion="18" MinorVersion="1" UserVersion="0"/>
+			</WSESW>
+		</WSESWRoot>
+		<WSRibbonRoot AutoHideMode="None" LockMode="None" ShowPanelTitleInHorizontalOrientation="true" ShowPanelTitleInVerticalOrientation="true">
+			<ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0"/>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="e7ec3fd556b04694ba917165739c667b" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="7afacb79997e4aa4a3d77a780b8636e8" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="8fc8e9a9e89945aa9e192e92050342f2">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="c1634eaec15f468195948b4f7b0615d9" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="7882cdb202fe4c4f9a7b369fbcc10d43">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="275a1662c4004c97b63342a2cdf6977b" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="0921d4268a194a2cae79dc41c372ac15">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="551cb832bce04a8381f7a0346790e437" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="dbfe245b878a4f6a80559b77389ea1c7">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="e95fdd547d78481b8ecd8eab7fc234af" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="0e07a4e7d6424a9bbcd19f1b684012be">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="2e7af0c8761b492e8c124f59bbf4de51" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="f96487804a90485d8b9d18c3274a5c77">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4db09da187b04ad4aa105b8f330c5a48" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="eb777215149749978ddb511d23ad6e2b">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4db09da187b04ad4aa105b8f330c5a48" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="9eac3d57c1864961a06c40f9ed2e6b66">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4db09da187b04ad4aa105b8f330c5a48" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="9ef24d8e550e48e4a76863184c8257c8">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="7afacb79997e4aa4a3d77a780b8636e8" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="2305d27c0f2a4bc885726f95f8648606">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="c1634eaec15f468195948b4f7b0615d9" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="856d31490f82413b8e4ebd5be61a89bc">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="275a1662c4004c97b63342a2cdf6977b" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="594b1f88097343d3b62dfc0cf37ebfb2">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="551cb832bce04a8381f7a0346790e437" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="b71da3190a514d9f9a67c828b2f61c6a">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="e95fdd547d78481b8ecd8eab7fc234af" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="faffb4c0217646aeb85493ff80b98b03">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="2e7af0c8761b492e8c124f59bbf4de51" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="38e3ec5276f644799a879d989a713fe7">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="89d0c40c7893456bb9d9083371b487d9" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="049d5b8b0a054046896d025667935ebb" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="b9f4099aac1749fb9211bba497b63ea6">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="91edff182e8d4e87ac84388270ff378b" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="064638811cd2449797a650aa57aa0f1b">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="99d9b5ba3ba4422db82dda26e25b27cf" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="e0f4b9da8ba54d61ad3fc2e58c45e87b">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4bbf9795595e410881cdb797d11cb6d8" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="f6893a372e1d482ca525f06d26f223ea">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="6c961dc5e5ba41bd8515f1ca0016f194" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="34676acc68a6410590ca841730018f1c">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="dce2b60716714f05b5985f3c82ef6125" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="7d0e3174a459498784b005fcc2ae886a">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="461bfb062c4c43ffb1f53990b0216715" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="d7e18510c55e4cbeb4038ebaab1db604">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="e7fca8e83e24475cb32f48d422b8ff20" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="ab8572d96b8747f58fd6395a986d1109">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4db09da187b04ad4aa105b8f330c5a48" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="de1e5aca1c98458e8bd2d39b766b420c">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="e4f68203ff48420088132671cf8fa96f" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="bf4a88ce78074df196a9efcc50586d55" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="48e266d483b147e789bc469c441b351a">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="9eb71ed219e54a939334f64a59b508e7" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="1b344c99ea734d5a875578976d8f6db1">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="bec06aafc0724258971bdfc8c8accb7f" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="942687f16c0b458fb2d2fbd98e97274c">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="db235617aebd43e2864834b9beaf3a9a" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="d5ac4747991e4a11ba53d4ec178de6b6">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="78c2719034054d458ecb21f6ebc7adbe" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="1bbefc178c3549478813d5b8e8e2a860">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="0c29b835a9e548e7a0ff065f571e78b8" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="dc0bd3500e3b48299cdac81a6ddd6178" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="b4bad7e76d734b30819a3701337899de">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="a8b2cfb42b684353b39d3eac21896bde" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="30cdade08dcd4534ad182230977d49aa">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="92fb7b073cec4628a9b4c28c2d7ca5e0" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="fd1a6f8717164322a83daf31f7b0cda3">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="aaf663d2a5a447dbb2c4e4bbb5de32d5" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="fb4432db2c16466b86779148dd40c1f0">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="bf484001a5774386850c5c8ab1ae92ff" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="cc353dcacace4f28b99f2c311145662e">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="0e28164f79024edcafe4ee533d52a2a5" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="d0916a32b5c4463d818acfcf3af2f5a2">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="429efccbb198436b8eccf03705fd033c" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="4754a62b57b141a2a1139db92ecc597c" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="5b00a7597ef24a3a87cac3068d3bc7ab">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="4490b5a1909545938582c37eb6906bde" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="4033f162b583455c96bf458c7f395c01">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="555916dd93d14838956d4f67e7b165d3" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="57c328fbd96442b498ee4514c8d285ba">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="d71528189e3b4e8fad0e1ad339b2529f" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="9aa8a2ee716342eea1033187d3a488f3">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="21aba9e9c7a14cff961c07b5d7586e59" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="a0f1cb2a2d134d499aeeda26e57be2b1">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="e004c47cb12a44b7b085ec7a197b29df" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="904adfe77bf84309827e0ee7f3102416">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="b0376b964c774a08b8ce845ad6a1d7f1" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="6ea32e1362134af08f296b86f25bf8b6" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="cf9b0f18ffc1455f8447ea0918815377">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="60553d9d620549d89c505994f104b07e" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="7033a150f1124b5898bded30d1570f41">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="680e4969869d44feaf866fee7710afd5" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="5f9c84405bbb436aaedb0aa7ec558117">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="faf2a889d1ba4973b45e128b1bdcf642" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="67bd2ec67eab4a30bd48d8a217357707">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="07f3613022e240a3b2aa50b6ca20a7ba" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="93b6c2126a964189a2dabe9b0ffc5963">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="78634331e4714926b468db3a494f46cb" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="9a879b27919545fcb3ff2a8b2de3ef71" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="59b91b844b7d49dc89470a9660b16be2">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="7b817fc4089a4828a996b25e385e4a91" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="f7cdabfeca06460fbc5a8ed022125c27">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="e2ab7f5f54024855a022734b90177529" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="2a9a75014cc14c9fa07336db413230ef">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="9e5fc64797f34479877af19b27d50765" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="cd90be1d988a41b8a4619a7be42686ae" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="02c59bc1769047edbba5df506a58785b">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="af0d34f69d1147ec84fbd0434fa5f30b" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="39ff81d6c9134cbda20348a2bbcbf237">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="408860a755d4439c80daca4b8cc09151" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="f9b3a9587ce44435be0ad0387980432d" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="fca623ac961b4cbb8320ce9ee044b151">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="87d52112e2a342ae8545dbb7f5a0f89c" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="463c6ba248654c738919dd47a268f336">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="0e6406dae4194caa85a90d8510ce553c" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="fdf77a7edb064ea19bc5b4401e2d88d9">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="bf5dcb2723494b1f9c8439447d3e3396" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="33807c3b618e48d6b0875d1258452a63">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="d357b3d4fc864717beaaed2894fa966c" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="dbe0cf50358b41909aad5650296f972a">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+			<WSRibbonTabSourceReference MenuGroup="" TabId="e2d676976b5645f1b9842a747a39a18b" Show="false" IsActive="false" UID="">
+				<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				<WSRibbonPanelSourceReference PanelId="178e6b32132041f0afe5df78501b6d23" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="1586157adc4c4b669c130b1a3e9322ff">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+				<WSRibbonPanelSourceReference PanelId="86cb74c7518a4978bc12abe8844ac74d" Orientation="" Show="false" xval="0" yval="0" FloatingGroup="0" FloatingOrder="0" FloatingOrientation="" UID="b6b09c485c5a46c79f62a15c3b289962">
+					<ModifiedRev MajorVersion="0" MinorVersion="0" UserVersion="0"/>
+				</WSRibbonPanelSourceReference>
+			</WSRibbonTabSourceReference>
+		</WSRibbonRoot>
+	</Workspace>
+	<WorkspaceConfigRoot>
+		<WorkspaceConfig Display="true" myWorkspace="true" UID="WSCU_0001">
+			<ModifiedRev MajorVersion="18" MinorVersion="2" UserVersion="0"/>
+			<Name xlate="true" UID="XLS_00014364">2D kreslení a poznámky</Name>
+		</WorkspaceConfig>
+	</WorkspaceConfigRoot>
+</WorkspaceRoot>
