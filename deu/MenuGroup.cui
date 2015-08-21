@@ -8,7 +8,7 @@
     <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="0"/>
     <Name xlate="true" UID="ID_RB1728">Neu</Name>
     <Command>^C^C_new</Command>
-    <HelpString xlate="true" UID="ID_RB1729">Erstellt eine leere Zeichnungsdatei:  NEW</HelpString>
+    <HelpString xlate="true" UID="ID_RB1729">Erstellt eine leere Zeichnungsdateiasdfdsadfdsa:  NEW</HelpString>
     <CLICommand xlate="true" UID="ID_RB1728">
         </CLICommand>
     <SmallImage>ZWRC_NEW</SmallImage>
